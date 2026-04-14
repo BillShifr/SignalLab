@@ -1,0 +1,11 @@
+---
+description: Prevent unsafe changes to infra, secrets, and migrations
+alwaysApply: true
+---
+
+# Signal Lab Guardrails
+
+- Never hardcode secrets or DSNs.
+- Never remove observability services from compose.
+- Never break `/metrics` root accessibility.
+- Never use destructive Prisma reset flows in shared environments.

@@ -1,0 +1,12 @@
+---
+description: TypeScript, NestJS, and Next.js conventions for Signal Lab
+alwaysApply: true
+---
+
+# Signal Lab Conventions
+
+- Controllers stay thin; services own business logic.
+- Frontend data fetching uses TanStack Query.
+- Forms use React Hook Form.
+- UI components stay in `frontend/components/ui/`.
+- Prefer structured logging over `console.log`.

@@ -1,0 +1,11 @@
+---
+description: Enforce Signal Lab stack and API contract
+alwaysApply: true
+---
+
+# Signal Lab Stack Rules
+
+- Use Next.js App Router, NestJS, Prisma, PostgreSQL, Prometheus, Loki, Grafana, and Sentry only.
+- Preserve `POST /api/scenarios`, `GET /api/scenarios`, and `GET /metrics`.
+- Keep Grafana reachable both at `http://localhost:3002` and proxied via `http://localhost:3000/grafana`.
+- Keep Sentry optional via `SENTRY_DSN`.
