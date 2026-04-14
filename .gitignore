@@ -1,0 +1,23 @@
+# Environment
+.env
+*.local
+
+# Node
+node_modules/
+dist/
+.next/
+build/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+backend/prisma/migrations/dev.db
+
+# IDE
+.idea/
+*.swp
